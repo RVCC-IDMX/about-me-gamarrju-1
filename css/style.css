@@ -1,3 +1,31 @@
 body{
-    background: color #264791;
+    font-family:Ubuntu mono;
+    background-color: #80a7ff;
+    color:aliceblue;
+}
+
+
+h1, h2, h3, h4, h5, h6 {
+    font-family:Passion One;
+    font-size:50pt;
+}
+
+
+header {
+    text-align: center;
+}
+
+#hero, footer {
+    text-align: center;
+    background-color: #264791;
+    padding: 5px;
+    border: 5px solid white;
+}
+
+#hero img {
+    width: 400px;
+}
+
+#bio {
+    text-align: center;
 }
