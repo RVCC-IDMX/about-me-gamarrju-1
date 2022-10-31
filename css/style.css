@@ -8,12 +8,13 @@ body{
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
     font-family:Passion One;
-    font-size:50pt;
+    font-size:70pt;
     word-spacing: 10px;
     letter-spacing: 4 px;
 }
 h2{
-    font-size: 20pt;
+    font-size: 40pt;
+    
 }
 
 
@@ -21,7 +22,10 @@ header {
     text-align: center;
 }
 
+/* Hero section */
+
 #hero, footer {
+    font-size: 20pt;
     text-align: center;
     background-color: #264791;
     padding: 5px;
@@ -33,13 +37,48 @@ header {
     width: 400px;
 }
 
+/* Bio section */
+
 #bio {
+    text-align: center;
+    font-size: 15pt;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+}
+
+/* Hobbies section */
+
+#hobbies{
+    text-align: left;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+    font-size: 20pt;
+}
+
+/* Gallery */
+
+#gallery{
+    border-style: 2px dashed #264791;;
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#gallery img{
+    max-width: 100%;
+}
+
+#gallery figure{
     text-align: center;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 }
 
-#hobbies ul li:nth-child(even) {
-    color: black;
-    text-align: start;
-    padding-left: .5rem;
+/* Article */
+
+#lit{
+    border-style: 2px dashed #264791;;
+    margin-bottom: 2rem;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 }
+
+#lit div {
+    padding:2rem;
+}
+
