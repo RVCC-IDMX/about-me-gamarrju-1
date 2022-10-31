@@ -6,8 +6,14 @@ body{
 
 
 h1, h2, h3, h4, h5, h6 {
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
     font-family:Passion One;
     font-size:50pt;
+    word-spacing: 10px;
+    letter-spacing: 4 px;
+}
+h2{
+    font-size: 20pt;
 }
 
 
@@ -20,6 +26,7 @@ header {
     background-color: #264791;
     padding: 5px;
     border: 5px solid white;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 }
 
 #hero img {
@@ -28,4 +35,11 @@ header {
 
 #bio {
     text-align: center;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+}
+
+#hobbies ul li:nth-child(even) {
+    color: black;
+    text-align: start;
+    padding-left: .5rem;
 }
