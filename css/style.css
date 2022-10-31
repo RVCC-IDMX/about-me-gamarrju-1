@@ -14,6 +14,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 h2{
     font-size: 40pt;
+    text-align: center;
     
 }
 
@@ -28,9 +29,8 @@ header {
     font-size: 20pt;
     text-align: center;
     background-color: #264791;
-    padding: 5px;
-    border: 5px solid white;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+    padding-bottom: 2rem;
 }
 
 #hero img {
@@ -38,6 +38,12 @@ header {
 }
 
 /* Bio section */
+
+#bio div{
+    padding: 5px;
+    border: 5px solid white;
+    background-color: #264791;
+}
 
 #bio {
     text-align: center;
@@ -48,15 +54,17 @@ header {
 /* Hobbies section */
 
 #hobbies{
-    text-align: left;
+    text-align: center;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
     font-size: 20pt;
+    padding: 5px;
+    border: 5px solid white;
+    background-color: #264791;
 }
 
 /* Gallery */
 
 #gallery{
-    border-style: 2px dashed #264791;;
     text-align: center;
     margin-bottom: 2rem;
 }
@@ -67,15 +75,19 @@ header {
 
 #gallery figure{
     text-align: center;
+    font-size: 23px;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+    padding: 20px;
 }
 
 /* Article */
 
 #lit{
-    border-style: 2px dashed #264791;;
+    padding: 5px;
+    border: 5px solid white;
     margin-bottom: 2rem;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
+    background-color: #264791;
 }
 
 #lit div {
