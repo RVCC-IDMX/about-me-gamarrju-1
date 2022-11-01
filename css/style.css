@@ -1,9 +1,8 @@
 body{
     font-family:Ubuntu mono;
-    background-color: #80a7ff;
+    background-color: #a9c2fb;
     color:aliceblue;
 }
-
 
 h1, h2, h3, h4, h5, h6 {
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
@@ -12,13 +11,12 @@ h1, h2, h3, h4, h5, h6 {
     word-spacing: 10px;
     letter-spacing: 4 px;
 }
+
 h2{
     font-size: 40pt;
     text-align: center;
     margin-bottom: 2px;
-    
 }
-
 
 header {
     text-align: center;
@@ -32,10 +30,11 @@ header {
     background-color: #264791;
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
     padding-bottom: 2rem;
+    border: 5px solid white;
 }
 
 #hero img {
-    width: 400px;
+    width: 300px;
 }
 
 /* Bio section */
@@ -48,7 +47,7 @@ header {
 
 #bio {
     text-align: center;
-    font-size: 15pt;
+    font-size: 15pt; 
     text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 }
 
@@ -69,7 +68,10 @@ header {
 
 #gallery{
     text-align: center;
-    margin-bottom: 2rem;
+    margin-bottom: 1rem;
+    border: 5px solid white;
+    margin-top: 1rem;
+    background-color: #264791;
 }
 
 #gallery img{
@@ -77,20 +79,17 @@ header {
 }
 
 #gallery figure{
-    text-align: left;
-    font-size: 30px;
-    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
-    padding: 20px;
-    display:grid;
-    grid-template-columns: 2fr 1fr;
+    text-align: center;
 }
+    
 
 #gallery figcaption{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+    font-size: 1rem;
     margin-right: 1rem;
+    text-shadow: 1px 1px 1px black, 2px 2px 1px black;
 }
 
 /* Article */
@@ -105,9 +104,24 @@ header {
 
 #lit div {
     padding:2rem;
+    max-width:100%;
+    columns: 40rem;
 }
 
+/* media query */
 
-@media screen(min-width: 60rem){
-    columns: 1;
+@media screen and (max-width: 60em){
+    figure{
+        display: grid;
+        grid-template-columns: 2fr 1fr;
+    }
+
+    figcaption{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 2rem;
+        margin-left: 1rem;
+    }
 }
+
