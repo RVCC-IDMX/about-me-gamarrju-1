@@ -110,13 +110,8 @@ header {
 
 
 
-/* Video */ 
 
-#video {
-    width:100%;
-    float:left;
-    text-align:center;
-}
+
 /* media query */
 
 @media screen and (max-width: 60em){
@@ -161,3 +156,17 @@ header {
 }
 
 
+/* Video */ 
+
+#video {
+    width:100%;
+    text-align:center;
+}
+
+
+/* Contact form */
+
+#formElements {
+    display: grid;
+}
+ 
